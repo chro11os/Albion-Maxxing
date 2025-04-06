@@ -37,12 +37,6 @@
 
 ---
 
-## 🗂️ Project Structure
-
-albion-maxxing/ ├── tracker/ # Fame, silver, and resource logs ├── builds/ # PvP and PvE builds ├── gathering/ # Optimal routes, timers, and gear ├── market/ # Flip tracking and analysis ├── bot-research/ # Theoretical bot module (ethical use only) ├── assets/ # Icons, zone maps, build images ├── README.md
-
-
----
 
 ## 📚 Getting Started
 
