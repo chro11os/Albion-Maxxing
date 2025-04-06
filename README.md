@@ -1,66 +1,68 @@
-🛡️ Albion Maxxing
+# 🛡️ Albion Maxxing
 
-Albion Maxxing is a toolkit and guide for pushing your Albion Online character to its maximum potential. Whether you're gathering resources, climbing PvP ranks, flipping the market, or theorycrafting builds — this repo helps you optimize, automate (where allowed), and dominate.
-🚀 Features
+**Albion Maxxing** is a toolkit and guide for pushing your *Albion Online* character to its maximum potential. Whether you're gathering resources, climbing PvP ranks, flipping the market, or theorycrafting builds — this repo helps you **optimize, automate (where allowed), and dominate**.
 
-    📈 Progress Tracker
-    Customizable system to monitor your spec, fame, silver, and resources.
+---
 
-    ⛏️ Gathering Optimizer
-    Maximize profits with tier-based zone routes, node timers, and mount suggestions.
+## 🚀 Features
 
-    ⚔️ PvP Build Planner
-    Curated builds for solo, group, ZvZ, and corrupted dungeons.
+- 📈 **Progress Tracker**  
+  Customizable system to monitor your spec, fame, silver, and resources.
 
-    🧠 Fame Farm Calculator
-    Fame per hour estimates based on location, gear, and mob type.
+- ⛏️ **Gathering Optimizer**  
+  Maximize profits with tier-based zone routes, node timers, and mount suggestions.
 
-    🛍️ Market Flip Helper
-    Tools to track item margins, city bonuses, and predict high-demand cycles.
+- ⚔️ **PvP Build Planner**  
+  Curated builds for solo, group, ZvZ, and corrupted dungeons.
 
-    🤖 (Optional) Bot Research Module
-    For educational use — explores the implications of automation in Albion.
+- 🧠 **Fame Farm Calculator**  
+  Fame per hour estimates based on location, gear, and mob type.
 
-        ⚠️ Disclaimer: Automation violates Albion Online’s TOS. This module is for academic use only.
+- 🛍️ **Market Flip Helper**  
+  Tools to track item margins, city bonuses, and predict high-demand cycles.
 
-🧰 Tech Stack (for tooling version)
+- 🤖 *(Optional)* **Bot Research Module**  
+  For educational use — explores the implications of automation in Albion.  
+  > ⚠️ **Disclaimer**: Automation violates Albion Online’s TOS. This module is for academic use only.
 
-    Python 3.10+
+---
 
-    SQLite / CSV (for logging)
+## 🧰 Tech Stack
 
-    Tkinter / CLI UI
+- Python 3.10+
+- SQLite / CSV (for logging)
+- Tkinter / CLI UI
+- Selenium *(for scraping market data if allowed)*
+- JSON configs
 
-    Selenium (for scraping market data if allowed)
+---
 
-    JSON configs
+## 🗂️ Project Structure
 
-🗂️ Project Structure
+albion-maxxing/ ├── tracker/ # Fame, silver, and resource logs ├── builds/ # PvP and PvE builds ├── gathering/ # Optimal routes, timers, and gear ├── market/ # Flip tracking and analysis ├── bot-research/ # Theoretical bot module (ethical use only) ├── assets/ # Icons, zone maps, build images ├── README.md
 
-albion-maxxing/
-├── tracker/            # Fame, silver, and resource logs
-├── builds/             # PvP and PvE builds
-├── gathering/          # Optimal routes, timers, and gear
-├── market/             # Flip tracking and analysis
-├── bot-research/       # Theoretical bot module (ethical use only)
-├── assets/             # Icons, zone maps, build images
-├── README.md
 
-📚 Getting Started
+---
 
-    Clone the repo
-    git clone https://github.com/yourusername/albion-maxxing.git
+## 📚 Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/yourusername/albion-maxxing.git
 
     Run a module
 
     cd gathering
     python route_optimizer.py
 
-    Customize your config in config.json
+    Customize your config
+
+    Edit config.json to fit your character's build and goals.
 
 🧠 Inspiration
 
-Inspired by the mindset of “maxxing” — pushing limits, automating grinds, and building systems for mastery.
+Inspired by the mindset of maxxing — pushing limits, automating grinds, and building systems for mastery.
 Built for grinders, theorycrafters, and digital hustlers.
 👤 Author
 
@@ -69,5 +71,3 @@ For the curious, the efficient, and the dangerous.
 ⚠️ Disclaimer
 
 This project is for educational and informational purposes only. Using bots or third-party tools in Albion Online can result in permanent bans. Always respect game rules and ethics.
-
-Want a version tailored to gathering-only, PvP-maxxing, or a guild-focused variant?
